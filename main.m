@@ -40,7 +40,7 @@ for i=2:max(size(t))
   %Plan des phases pendule 1: 
  
   subplot(3,2,3);
-  box on;grid on;
+  box on; grid on;
   line(theta(i-1:i,1),theta(i-1:i,2),'Color','b','LineWidth',2);
   xlabel('theta1')
   ylabel(' d/dt (theta1)')
@@ -57,7 +57,7 @@ for i=2:max(size(t))
   
   
   
-  while toc <0.025;end;
+  while toc <0.02;end;
   drawnow;
 
   
