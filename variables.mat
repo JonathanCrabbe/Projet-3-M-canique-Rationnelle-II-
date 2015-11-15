@@ -1,4 +1,4 @@
-# Created by Octave 4.0.0, Sat Nov 14 23:28:39 2015 Paris, Madrid <unknown@PC-de-Jonathan>
+# Created by Octave 4.0.0, Sun Nov 15 20:16:13 2015 Paris, Madrid <unknown@PC-de-Jonathan>
 # name: A
 # type: global scalar
 20
@@ -7,6 +7,16 @@
 # name: d
 # type: global scalar
 30
+
+
+# name: ech
+# type: scalar
+20
+
+
+# name: fin
+# type: scalar
+201
 
 
 # name: k

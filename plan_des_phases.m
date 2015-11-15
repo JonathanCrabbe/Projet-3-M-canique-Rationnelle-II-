@@ -16,8 +16,8 @@ for i=2:max(size(t))
   subplot(2,1,1);
   box on; grid on;
   line(theta(i-1:i,1),theta(i-1:i,2),'Color','b','LineWidth',2);
-  xlabel('theta1')
-  ylabel(' d/dt (theta1)')
+  xlabel('\theta1')
+  ylabel(' d\theta1/dt')
   
   
   %Plan des phases pendule 2:
@@ -25,8 +25,8 @@ for i=2:max(size(t))
   subplot(2,1,2);
   box on;grid on;
   line(theta(i-1:i,3),theta(i-1:i,4),'Color','r','LineWidth',2);
-  xlabel('theta2')
-  ylabel(' d/dt (theta2)')
+  xlabel('\theta2')
+  ylabel(' d\theta2/dt ')
   
   
   

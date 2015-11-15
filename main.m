@@ -27,7 +27,7 @@ for i=2:max(size(t))
   line(t(i-1:i),theta(i-1:i,1),'Color','b','LineWidth',2);
   line(t(i-1:i),theta(i-1:i,2),'Color','r','LineWidth',2);
   xlabel('t(s)')
-  ylabel('dq1/dt - rouge (1/s) ou q1 - bleu (radian)')
+  ylabel('d\theta1/dt - rouge (1/s) ou \theta1 - bleu (radian)')
   
   %  fname = sprintf('E:/frame%02d.jpg',i); % pour sauver image par
   %  print(fname) % image l'animation
